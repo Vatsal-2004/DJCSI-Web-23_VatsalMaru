@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kozo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="Kozo.html"><img src="photos/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="#part2">Features</a></li>
+                        <li><a href="#part2">Integration</a></li>
+                        <li><a href="#part3">Clients</a></li>
+                        <li><a href="#part3">Testimonial</a></li>
+                        <li><a href="#part4">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-times" aria-hidden="true" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="banner">
+                <img src="photos/banner.png">
+            </div>
+            <div class="text-box">
+                <h1>The Quicker, Better,<br>Smarter Expense <br>Mangement Tool</h1>
+                <p class="para">Is your Business caught int the red-tape of endless paper trails, <br>the rigmarole of stuck approvals,faulty finiacial data entry <br>and hours of number crunching? We've got you covered.</p>
+            </div>
+            
+        </section>
+        <!--Features-->
+        <section class="part2" id="part2">
+            <h1>Tons of Features</h1>
+            <div class="features">
+                <div class="column">
+                    <div class="column1">
+                        <div>
+                            <img src="photos/1.png">
+                            <img src="photos/2.png">
+                            <img src="photos/3.png">
+                            <img src="photos/4.png">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="photos/phone.png" class="center">
+                </div>
+                <div class="column">
+                    <div class="column2">
+                        <img src="photos/5.png">
+                     <img src="photos/6.png">
+                     <img src="photos/7.png">
+                     <img src="photos/8.png">
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <!--reviews-->
+        <section class="part3" id="part3">
+            <h1>Read Our Rave Reviews</h1>        
+          <div class="row">
+            <div class="course-col">
+                <img src="photos/prof1.png" class="i">
+                <h3>Biy J. Olds</h3>
+                <h6>TCC Inc.</h6>
+                <div >
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                    
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="course-col">
+                <img src="photos/prof2.png" class="i">
+                <h3>Jerome T. Armstrong</h3>
+                <h6>OPNB Corp</h6>
+                <div >
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="course-col">
+                <img src="photos/prof3.png" class="i">
+                <h3>Willam G. Grace</h3>
+                <h6>C Collective</h6>
+                <div >
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>   
+        </section>
+        <!--contact info-->
+        <section class="part4" id="part4">
+            <h1 class="chg">Ready to Simplify your Finances?</h1>
+            <div class="mail">
+                <div>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <span>
+                    <h5>hello@gokozo.com</h5>
+                </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                    <h5>9123134092</h5>
+                </span>
+                </div>
+                
+            </div>
+
+
+        </section>
+        <!----- java script ----->
+       <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
